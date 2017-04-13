@@ -11,7 +11,8 @@
         android:layout_width="35dp"
         android:layout_height="35dp"
         android:background="@drawable/icon_bg"
-        android:layout_gravity="center"/>
+        android:layout_gravity="center"
+        android:visibility="gone"/>
 
     <ImageView
         android:id="@+id/img_ball"
@@ -19,7 +20,8 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:alpha="0.5"
-        android:background="@drawable/icon_ball"/>
+        android:background="@drawable/icon_ball"
+        android:visibility="gone"/>
 
     <ImageView
         android:id="@+id/img_big_ball"
@@ -27,7 +29,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:background="@drawable/icon_big_ball"
-        android:visibility="invisible"
+        android:visibility="gone"
         />
 
 </FrameLayout>
